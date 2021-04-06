@@ -8,5 +8,5 @@ A record of leetcode ordered by tag in python.
 
  to do 
  
- 35 53 66
+ 27 35 53 66
  
