@@ -14,8 +14,11 @@ A record of leetcode ordered by tag in python.
 
 考察贪心算法，动态规划，分治算法。只更新了贪心算法系列，其他的后面再更新
 
+66.加一
+
+考察数组的遍历，或者考察数组，字符串，整数的相互转换
 
  to do list:
  
- 27  66
+ 27  15 169 217
  
