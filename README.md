@@ -4,6 +4,10 @@ A record of leetcode ordered by tag in python.
 # 数组相关
 1.两数之和（easy)
 
+15.三数之和（medium）
+
+考察数组的遍历，双指针，难点是去重，果然medium的题做起来是不一样哈哈哈
+
 26.删除有序数组中的重复项
 
 35.搜索插入位置（easy)
@@ -22,6 +26,10 @@ A record of leetcode ordered by tag in python.
 
 考察位运算，比较经典
 
+137.只出现一次的数字 II（medium）
+
+考察hash表，进阶解法是有限状态机和位运算的高级应用，值得二刷，毕竟是谷歌的笔试题
+
 169.多数元素 （easy）
 
 考察hash表的应用或者先排序后选择
@@ -34,5 +42,5 @@ A record of leetcode ordered by tag in python.
 
  to do list:
  
- 27  15 137
+ 27 
  
