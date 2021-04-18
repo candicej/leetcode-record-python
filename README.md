@@ -58,9 +58,10 @@ https://leetcode-cn.com/problems/contains-duplicate/
 
 考察hash表的应用或者排序然后遍历数组
 
+# 链表相关
 
 
  to do list:
  
- 27 
+ 27 4 19 21 82 83
  
