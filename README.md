@@ -2,8 +2,8 @@
 A record of leetcode ordered by tag in python.
 
 # 数组相关
-[1.两数之和（easy)]
-(https://leetcode-cn.com/problems/two-sum/)
+1.两数之和（easy)
+https://leetcode-cn.com/problems/two-sum/
 
 15.三数之和（medium）
 
