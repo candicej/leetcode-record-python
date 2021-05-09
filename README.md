@@ -72,10 +72,18 @@ https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/
 
 考察链表的遍历，很经典，难度不大
 
+141.环形链表(easy)
+
+https://leetcode-cn.com/problems/linked-list-cycle/
+
+考察链表中是否存在环，快慢指针，有点不好想到，多练习
+
+
+
 
 
 
  to do list:
  
- 27 4 19 82 92.141.203.206
+ 27 4 19 82 92.203.206
  
