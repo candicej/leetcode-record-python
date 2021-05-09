@@ -60,19 +60,19 @@ https://leetcode-cn.com/problems/contains-duplicate/
 
 # 链表相关
 
-21. 合并两个有序链表（easy)
+21.合并两个有序链表（easy)
 
 https://leetcode-cn.com/problems/merge-two-sorted-lists/
 
 考察链表的遍历和递归，也可以用迭代，还没尝试
 
-82. 删除排序链表中的重复元素 II（medium）
+82.删除排序链表中的重复元素 II（medium）
 
 https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/
 
 考察链表的遍历，添加了dummy节点和两个指针，有一点难度
 
-83. 删除排序链表中的重复元素(easy)
+83.删除排序链表中的重复元素(easy)
 
 https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/
 
