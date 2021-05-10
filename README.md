@@ -84,6 +84,14 @@ https://leetcode-cn.com/problems/linked-list-cycle/
 
 考察链表中是否存在环，快慢指针，有点不好想到，多练习
 
+203. 移除链表元素（easy)
+
+https://leetcode-cn.com/problems/remove-linked-list-elements/
+
+考察链表的遍历，难点在于边界点的处理，注意每次循环cur只移动一次，就不会出错
+
+
+
 
 
 
@@ -91,5 +99,5 @@ https://leetcode-cn.com/problems/linked-list-cycle/
 
  to do list:
  
- 27 4 19 92.203.206
+ 27 4 19 92.206
  
