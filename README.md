@@ -58,6 +58,16 @@ https://leetcode-cn.com/problems/contains-duplicate/
 
 考察hash表的应用或者排序然后遍历数组
 
+
+# 字符串相关
+
+58.最后一个单词的长度（easy)
+
+https://leetcode-cn.com/problems/length-of-last-word/
+
+主要考察字符串的应用，难点是最后几个连续都是空格的情况
+
+
 # 链表相关
 
 21.合并两个有序链表（easy)
