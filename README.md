@@ -16,6 +16,8 @@ https://leetcode-cn.com/problems/3sum/
 
 https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/
 
+考察双指针
+
 35.搜索插入位置（easy)
 
 https://leetcode-cn.com/problems/search-insert-position/
@@ -33,6 +35,12 @@ https://leetcode-cn.com/problems/maximum-subarray/
 https://leetcode-cn.com/problems/plus-one/
 
 考察数组的遍历，或者考察数组，字符串，整数的相互转换
+
+80. 删除有序数组中的重复项 II（medium）
+
+https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/
+
+考察双指针，边界条件的判断，和 26.删除有序数组中的重复项 差不多，难一点
 
 136.只出现一次的数字（easy)
 
@@ -94,11 +102,21 @@ https://leetcode-cn.com/problems/linked-list-cycle/
 
 考察链表中是否存在环，快慢指针，有点不好想到，多练习
 
-203. 移除链表元素（easy)
+203.移除链表元素（easy)
 
 https://leetcode-cn.com/problems/remove-linked-list-elements/
 
 考察链表的遍历，难点在于边界点的处理，注意每次循环cur只移动一次，就不会出错
+
+
+# 动态规划
+
+70.爬楼梯（easy)
+
+https://leetcode-cn.com/problems/climbing-stairs/
+
+最经典的动态规划，本质是斐波那契数列，不错
+
 
 
 
@@ -110,5 +128,5 @@ https://leetcode-cn.com/problems/remove-linked-list-elements/
  to do list:
  
  27 4 19 92.206
- 26.80.70
+
  
