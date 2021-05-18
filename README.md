@@ -60,6 +60,12 @@ https://leetcode-cn.com/problems/majority-element/
 
 考察hash表的应用或者先排序后选择
 
+206. 反转链表（easy)
+
+https://leetcode-cn.com/problems/reverse-linked-list/
+
+考察链表的遍历 和递归或者迭代，对于我来说很难，不太明白，主要是看递归返回的结果怎么传到上一层，值得二刷
+
 217.存在重复元素（easy)
 
 https://leetcode-cn.com/problems/contains-duplicate/
@@ -127,6 +133,6 @@ https://leetcode-cn.com/problems/climbing-stairs/
 
  to do list:
  
- 27 4 19 92.206
+ 27 4 19 92
 
  
