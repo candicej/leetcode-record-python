@@ -84,6 +84,12 @@ https://leetcode-cn.com/problems/length-of-last-word/
 
 # 链表相关
 
+19. 删除链表的倒数第 N 个结点（medium）
+
+https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/
+
+考察双指针，其实不难，主要是边界条件的处理，加一个dummy节点就可以了
+
 21.合并两个有序链表（easy)
 
 https://leetcode-cn.com/problems/merge-two-sorted-lists/
@@ -133,6 +139,6 @@ https://leetcode-cn.com/problems/climbing-stairs/
 
  to do list:
  
- 27 4 19 92
+ 27 4 92
 
  
