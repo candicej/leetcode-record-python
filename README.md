@@ -83,8 +83,7 @@ https://leetcode-cn.com/problems/length-of-last-word/
 
 
 # 链表相关
-
-19. 删除链表的倒数第 N 个结点（medium）
+19.删除链表的倒数第 N 个结点（medium）
 
 https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/
 
@@ -139,6 +138,6 @@ https://leetcode-cn.com/problems/climbing-stairs/
 
  to do list:
  
- 27 4 92
+ 27 4 92 5.53.62.63.64
 
  
