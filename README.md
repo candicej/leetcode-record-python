@@ -122,6 +122,12 @@ https://leetcode-cn.com/problems/remove-linked-list-elements/
 
 # 动态规划
 
+53.最大子序和(easy)
+
+https://leetcode-cn.com/problems/maximum-subarray/
+
+考察动态规划，状态转移，或者可以使用分治（待补充)
+
 70.爬楼梯（easy)
 
 https://leetcode-cn.com/problems/climbing-stairs/
@@ -138,6 +144,6 @@ https://leetcode-cn.com/problems/climbing-stairs/
 
  to do list:
  
- 27 4 92 5.53.62.63.64
+ 27 4 92 5.62.63.64
 
  
