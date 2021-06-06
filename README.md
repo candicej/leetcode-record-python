@@ -122,6 +122,12 @@ https://leetcode-cn.com/problems/remove-linked-list-elements/
 
 # 动态规划
 
+5.最长回文子串(medium)
+
+https://leetcode-cn.com/problems/longest-palindromic-substring/
+
+考察如何填dp表，状态转移方程
+
 53.最大子序和(easy)
 
 https://leetcode-cn.com/problems/maximum-subarray/
@@ -144,6 +150,6 @@ https://leetcode-cn.com/problems/climbing-stairs/
 
  to do list:
  
- 27 4 92 5.62.63.64
+ 27 4 92.62.63.64
 
  
