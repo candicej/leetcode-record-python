@@ -140,12 +140,23 @@ https://leetcode-cn.com/problems/unique-paths/
 
 考察填表（有点技巧），状态转移，简单哈
 
+64. 最小路径和（medium）
+
+https://leetcode-cn.com/problems/minimum-path-sum/
+
+考察二维数组的初始化和状态转移方程，跟62很像，不难哈
+
 70.爬楼梯（easy)
 
 https://leetcode-cn.com/problems/climbing-stairs/
 
 最经典的动态规划，本质是斐波那契数列，不错
 
+121. 买卖股票的最佳时机
+
+https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/
+
+考察动态规划的基本思想，刚开始没想到解法，其实就是将大问题的解变成小问题的解，更新状态就可以了
 
 
 
@@ -156,6 +167,6 @@ https://leetcode-cn.com/problems/climbing-stairs/
 
  to do list:
  
- 27 4 92.63.64
+ 27 4 92.63
 
  
