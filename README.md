@@ -146,7 +146,7 @@ https://leetcode-cn.com/problems/unique-paths-ii/
 
 考察填表，但是这个填表稍微有一点难搞，要考虑dp[0,0]的特殊性，还有边界条件的处理
 
-64. 最小路径和（medium）
+64.最小路径和（medium）
 
 https://leetcode-cn.com/problems/minimum-path-sum/
 
@@ -158,11 +158,23 @@ https://leetcode-cn.com/problems/climbing-stairs/
 
 最经典的动态规划，本质是斐波那契数列，不错
 
-121. 买卖股票的最佳时机
+121.买卖股票的最佳时机（easy）
 
 https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/
 
 考察动态规划的基本思想，刚开始没想到解法，其实就是将大问题的解变成小问题的解，更新状态就可以了
+
+122.买卖股票的最佳时机 II（medium)
+
+https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/
+
+考察思维，怎么能够最大收益？不就是有涨就买入
+
+198.打家劫舍（medium）
+
+https://leetcode-cn.com/problems/house-robber/
+
+考察特例判断和状态转移方程，思想就是动态规划的基本思想：大问题转化为小问题
 
 
 
@@ -173,6 +185,6 @@ https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/
 
  to do list:
  
- 27 4 92.63.122.123.118
+ 27 4 92.63.123.118
 
  
