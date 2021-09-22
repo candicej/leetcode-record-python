@@ -170,6 +170,12 @@ https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/
 
 考察思维，怎么能够最大收益？不就是有涨就买入
 
+139.单词拆分（medium）
+
+https://leetcode-cn.com/problems/word-break/
+
+考察动态规划，但是我刚开始用的双指针，没有考虑前缀相同的情况，会有部分测试样例没法通过，这道题应该是先遍历i，再遍历j，这样不会漏掉情况。
+
 198.打家劫舍（medium）
 
 https://leetcode-cn.com/problems/house-robber/
