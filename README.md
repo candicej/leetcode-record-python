@@ -183,6 +183,13 @@ https://leetcode-cn.com/problems/house-robber/
 考察特例判断和状态转移方程，思想就是动态规划的基本思想：大问题转化为小问题
 
 
+# 树
+
+144. 二叉树的前序遍历 (easy)
+
+https://leetcode-cn.com/problems/binary-tree-preorder-traversal/
+
+
 
 
 
@@ -192,5 +199,7 @@ https://leetcode-cn.com/problems/house-robber/
  to do list:
  
  27 4 92.63.123.118
+ 
+ 144. 145. 94. 102. 107
 
  
