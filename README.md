@@ -185,10 +185,25 @@ https://leetcode-cn.com/problems/house-robber/
 
 # 树
 
-144. 二叉树的前序遍历 (easy)
+144. 二叉树的前序遍历 (easy) **
 
 https://leetcode-cn.com/problems/binary-tree-preorder-traversal/
 
+94. 二叉树的中序遍历  (easy) ***
+
+https://leetcode-cn.com/problems/binary-tree-inorder-traversal/
+
+145. 二叉树的后序遍历 (easy) ****
+
+https://leetcode-cn.com/problems/binary-tree-postorder-traversal/submissions/
+
+二叉树主要考察递归和迭代，递归相对简单，迭代利用栈的特性来实现，目前还不太掌握
+
+104. 二叉树的最大深度 (easy) **
+
+https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/
+
+考察深度搜索，递归实现就可以, 难点应该是子问题和问题的联系，就是+1
 
 
 
