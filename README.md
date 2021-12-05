@@ -205,6 +205,13 @@ https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/
 
 考察深度搜索，递归实现就可以, 难点应该是子问题和问题的联系，就是+1
 
+112. 路径总和(easy) **
+
+https://leetcode-cn.com/problems/path-sum/
+
+考察递归, 不用sum直接递归下一个子问题
+
+
 
 
 
