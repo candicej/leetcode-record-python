@@ -30,7 +30,7 @@ https://leetcode-cn.com/problems/maximum-subarray/
 
 考察贪心算法，动态规划，分治算法。只更新了贪心算法系列，其他的后面再更新
 
-66.加一(easy)
+66. 加一(easy)
 
 https://leetcode-cn.com/problems/plus-one/
 
@@ -181,6 +181,16 @@ https://leetcode-cn.com/problems/word-break/
 https://leetcode-cn.com/problems/house-robber/
 
 考察特例判断和状态转移方程，思想就是动态规划的基本思想：大问题转化为小问题
+
+# 其他（栈、）
+
+155. 最小栈(easy) **
+
+https://leetcode-cn.com/problems/min-stack/
+
+考察 栈 用列表来模拟
+
+
 
 
 # 树
