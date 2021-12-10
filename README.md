@@ -81,8 +81,15 @@ https://leetcode-cn.com/problems/length-of-last-word/
 
 主要考察字符串的应用，难点是最后几个连续都是空格的情况
 
+14. 最长公共前缀（easy）
+
+https://leetcode-cn.com/problems/longest-common-prefix/
+
+考察字符串是否相等,遍历一个列表，依次进行比较
+
 
 # 链表相关
+
 19.删除链表的倒数第 N 个结点（medium）
 
 https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/
@@ -182,6 +189,12 @@ https://leetcode-cn.com/problems/house-robber/
 
 考察特例判断和状态转移方程，思想就是动态规划的基本思想：大问题转化为小问题
 
+1143. 最长公共子序列（medium） ***
+
+https://leetcode-cn.com/problems/longest-common-subsequence/
+
+考察二维的动态规划，非常经典！！！！思想也很好，自底向上实现，必看
+
 # 其他（栈、）
 
 155. 最小栈(easy) **
@@ -190,7 +203,11 @@ https://leetcode-cn.com/problems/min-stack/
 
 考察 栈 用列表来模拟
 
+239. 滑动窗口最大值 (hard) *****
 
+https://leetcode-cn.com/problems/sliding-window-maximum/
+
+考察双向队列，队首元素存储最大元素，很难理解
 
 
 # 树
