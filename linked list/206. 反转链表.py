@@ -51,4 +51,30 @@ class Solution:
 # 	cur = 5
 # 	1.next.next->1，即2->1
         
-        
+
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+# 迭代真的很好理解！！一定要用迭代，就是用两个指针来遍历
+# 我们可以申请两个指针，第一个指针叫 pre，最初是指向 null 的。
+# 第二个指针 cur 指向 head，然后不断遍历 cur。
+# 每次迭代到 cur，都将 cur 的 next 指向 pre，然后 pre 和 cur 前进一位。
+# 都迭代完了(cur 变成 null 了)，pre 就是最后一个节点了。
+
+class Solution:
+    def reverseList(self, head: ListNode) -> ListNode:
+        # 两个指针
+        pre, cur = None, head
+        # 注意边界是cur
+        while cur:
+            # 保存下一个节点
+            tmp = cur.next 
+            # 开始翻转
+            cur.next = pre 
+            # 往右遍历
+            pre = cur
+            cur = tmp
+        # 最后的pre就是原先链表的最后一个元素了
+        return pre
