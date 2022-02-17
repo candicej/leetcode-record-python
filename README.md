@@ -60,11 +60,7 @@ https://leetcode-cn.com/problems/majority-element/
 
 考察hash表的应用或者先排序后选择
 
-206. 反转链表（easy)
 
-https://leetcode-cn.com/problems/reverse-linked-list/
-
-考察链表的遍历 和递归或者迭代，对于我来说很难，不太明白，主要是看递归返回的结果怎么传到上一层，值得二刷
 
 217.存在重复元素（easy)
 
@@ -126,6 +122,13 @@ https://leetcode-cn.com/problems/remove-linked-list-elements/
 
 考察链表的遍历，难点在于边界点的处理，注意每次循环cur只移动一次，就不会出错
 
+206. 反转链表（easy)
+
+https://leetcode-cn.com/problems/reverse-linked-list/
+
+考察链表的遍历 和递归或者迭代，对于我来说很难，不太明白，主要是看递归返回的结果怎么传到上一层，值得二刷
+
+二刷：用了迭代的方法，两个指针遍历，依次翻转！比递归好理解！！！
 
 # 动态规划
 
