@@ -2,15 +2,12 @@
 A record of leetcode ordered by tag in python.
 
 # 数组相关
-1.两数之和（easy)
 
-https://leetcode-cn.com/problems/two-sum/
-
-15.三数之和（medium）
+15.三数之和（medium）**** 
 
 https://leetcode-cn.com/problems/3sum/
 
-考察数组的遍历，双指针，难点是去重，果然medium的题做起来是不一样哈哈哈
+考察数组的遍历，双指针，难点是去重，果然medium的题做起来是不一样哈哈哈，必须二刷
 
 26.删除有序数组中的重复项
 
@@ -53,12 +50,6 @@ https://leetcode-cn.com/problems/single-number/
 https://leetcode-cn.com/problems/single-number-ii/
 
 考察hash表，进阶解法是有限状态机和位运算的高级应用，值得二刷，毕竟是谷歌的笔试题
-
-169.多数元素 （easy）
-
-https://leetcode-cn.com/problems/majority-element/
-
-考察hash表的应用或者先排序后选择
 
 
 217.存在重复元素（easy)
@@ -211,6 +202,29 @@ https://leetcode-cn.com/problems/longest-common-subsequence/
 
 # 哈希表
 
+1.两数之和（easy) **
+
+https://leetcode-cn.com/problems/two-sum/
+
+考察利用hashtable来减少时间，难点在于字典的键值怎么设置，以及enumerate函数的使用
+
+128. 最长连续序列（medium）****
+
+https://leetcode-cn.com/problems/longest-consecutive-sequence/
+
+考察利用set来判断元素是否出现过，首先是去重，然后遍历（便利条件的处理）值得二刷，思想不太好想
+
+146. LRU 缓存（medium） ****
+
+https://leetcode-cn.com/problems/lru-cache/
+
+考察的太多了！！！我觉得太难了，考察了hash表，双链表，链表里存储了key和value两个值，太难了，必须二刷
+
+169.多数元素 （easy）*
+
+https://leetcode-cn.com/problems/majority-element/
+
+考察hash表的应用或者先排序后选择
 
 
 # 栈和队列
@@ -220,12 +234,6 @@ https://leetcode-cn.com/problems/longest-common-subsequence/
 https://leetcode-cn.com/problems/valid-parentheses/
 
 考察栈的使用，优化：通过字典来优化
-
-146. LRU 缓存（medium） ****
-
-https://leetcode-cn.com/problems/lru-cache/
-
-考察的太多了！！！我觉得太难了，考察了hash表，双链表，链表里存储了key和value两个值，太难了，必须二刷
 
 155. 最小栈(easy) **
 
@@ -238,13 +246,6 @@ https://leetcode-cn.com/problems/min-stack/
 https://leetcode-cn.com/problems/implement-queue-using-stacks/
 
 考察 队列的性质，先进先出，那么就需要两个栈来实现，我个人觉得很难，尤其是这种需要init函数的，值得二刷。多熟练就好了
-
-239. 滑动窗口最大值 (hard) *****
-
-https://leetcode-cn.com/problems/sliding-window-maximum/
-
-考察双向队列，队首元素存储最大元素，很难理解
-
 
 # 树
 
@@ -274,7 +275,13 @@ https://leetcode-cn.com/problems/path-sum/
 
 考察递归, 不用sum直接递归下一个子问题
 
+# 滑动窗口
 
+239. 滑动窗口最大值 (hard) *****
+
+https://leetcode-cn.com/problems/sliding-window-maximum/
+
+考察双向队列，队首元素存储最大元素，很难理解
 
 
 
