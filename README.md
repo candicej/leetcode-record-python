@@ -61,7 +61,6 @@ https://leetcode-cn.com/problems/majority-element/
 考察hash表的应用或者先排序后选择
 
 
-
 217.存在重复元素（easy)
 
 https://leetcode-cn.com/problems/contains-duplicate/
@@ -85,6 +84,12 @@ https://leetcode-cn.com/problems/longest-common-prefix/
 
 
 # 链表相关
+
+2. 两数相加 （medium）
+
+https://leetcode-cn.com/problems/add-two-numbers/
+
+考察遍历两个链表，相加，并且创建一个新链表。难点：两个链表长度不一样的情况，进位，如何创建一个链表，以及哑结点的使用
 
 19.删除链表的倒数第 N 个结点（medium）
 
@@ -129,6 +134,12 @@ https://leetcode-cn.com/problems/reverse-linked-list/
 考察链表的遍历 和递归或者迭代，对于我来说很难，不太明白，主要是看递归返回的结果怎么传到上一层，值得二刷
 
 二刷：用了迭代的方法，两个指针遍历，依次翻转！比递归好理解！！！
+
+234. 回文链表（easy）***
+
+https://leetcode-cn.com/problems/palindrome-linked-list/
+
+考察：寻找链表的中间节点，以及翻转后部分链表，进行比较。难点：cur结束的条件 值得二刷
 
 # 动态规划
 
@@ -198,13 +209,35 @@ https://leetcode-cn.com/problems/longest-common-subsequence/
 
 考察二维的动态规划，非常经典！！！！思想也很好，自底向上实现，必看
 
-# 其他（栈、）
+# 哈希表
+
+
+
+# 栈和队列
+
+20. 有效的括号 （easy） ***
+
+https://leetcode-cn.com/problems/valid-parentheses/
+
+考察栈的使用，优化：通过字典来优化
+
+146. LRU 缓存（medium） ****
+
+https://leetcode-cn.com/problems/lru-cache/
+
+考察的太多了！！！我觉得太难了，考察了hash表，双链表，链表里存储了key和value两个值，太难了，必须二刷
 
 155. 最小栈(easy) **
 
 https://leetcode-cn.com/problems/min-stack/
 
 考察 栈 用列表来模拟
+
+232. 用栈实现队列（easy）****
+
+https://leetcode-cn.com/problems/implement-queue-using-stacks/
+
+考察 队列的性质，先进先出，那么就需要两个栈来实现，我个人觉得很难，尤其是这种需要init函数的，值得二刷。多熟练就好了
 
 239. 滑动窗口最大值 (hard) *****
 
