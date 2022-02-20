@@ -1,34 +1,39 @@
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
 # 方法一 递归
 # 一看就是转换成头结点和除了头结点之外的链表两个问题
 # 但是我不会啊，写不出来，递归还是不太理解
 # 首先是递，将大问题转化为小问题
 # 当只有一个节点的时候，不需要反转，以这个为节点进行归，完成反转
-
 # 看一下这个 题解 https://leetcode-cn.com/problems/reverse-linked-list/solution/dong-hua-yan-shi-206-fan-zhuan-lian-biao-by-user74/
+
+
 class Solution:
-	# 拿test 1 2 3 4 5 当例子来说明
-    def reverseList(self, head:ListNode) -> ListNode:
-    	# 结束条件  
-    	# 只有当reverse 到节点5 时候 return 5
-    	if not head or not head.next:
+    # 拿test 1 2 3 4 5 当例子来说明
+    def reverseList(self, head: ListNode) -> ListNode:
+        # 结束条件
+        # 只有当reverse 到节点5 时候 return 5
+        if not head or not head.next:
             return head
-        
+
         # node就是反转链表的头结点
         # 函数出栈过程中返回值p一直没有变，只是将当前函数的输入结点进行反转
-        # node 为 reverse（5）时候返回的head 也就是5   
+        # node 为 reverse（5）时候返回的head 也就是5
         node = self.reverseList(head.next)
         # 反转
         # 执行reverse（4 5）
-        # 这时候 head = 4 
+        # 这时候 head = 4
         head.next.next = head
         # 防止出现环
         # 在python中只存在None
-        # 删除5 指向4 
+        # 删除4->5 已经有了5->4 了
         head.next = None
 
         # node每次都是头节点5
         return node
-            
 
 # 执行reverseList(5),head节点为5处,返回5->null;
 # 执行reverseList(4),head节点为4,从4节点的指针为4->5->null,执行head.next.next = head; head.next = null;后p节点的结果为5->4->null;
@@ -40,7 +45,7 @@ class Solution:
 #     reverseList: head=2
 # 	    reverseList: head=3
 # 		    reverseList:head=4
-# 			    reverseList:head=5 
+# 			    reverseList:head=5
 # 					终止返回
 # 				cur = 5
 # 				4.next.next->4，即5->4
@@ -50,8 +55,10 @@ class Solution:
 # 		2.next.next->2，即3->2
 # 	cur = 5
 # 	1.next.next->1，即2->1
-        
 
+
+# 迭代
+# 还是参考 https://leetcode-cn.com/problems/reverse-linked-list/solution/dong-hua-yan-shi-206-fan-zhuan-lian-biao-by-user74/
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, val=0, next=None):
@@ -70,11 +77,15 @@ class Solution:
         # 注意边界是cur
         while cur:
             # 保存下一个节点
-            tmp = cur.next 
+            tmp = cur.next
             # 开始翻转
-            cur.next = pre 
+            cur.next = pre
             # 往右遍历
             pre = cur
             cur = tmp
         # 最后的pre就是原先链表的最后一个元素了
         return pre
+
+
+
+

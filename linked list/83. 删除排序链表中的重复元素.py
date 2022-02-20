@@ -5,20 +5,20 @@
 #         self.next = next
 class Solution:
     def deleteDuplicates(self, head: ListNode) -> ListNode:
-        # 当 head 不存在或者 head.next 不存在，直接返回 head
-        if not head or not head:
+        # 哑结点
+        dummy = ListNode(0,head)
+        if not head or not head.next:
             return head
-
+        pre = dummy
         cur = head
-
-        # 当我们遍历到链表的最后一个节点时，cur.next 为空节点，如果不加以判断，访问 cur.next 对应的元素会产生运行错误。因此我们只需要遍历到链表的最后一个节点，而不需要遍历完整个链表。
-        while cur.next:
-            # 如果和当前值相同 断掉 
-            if cur.next.val == cur.val:
-                cur.next = cur.next.next
-                
-            # 否则向后移动
-            else:
+        # 遍历结束条件 遍历到倒数第2个节点即停止
+        while cur and cur.next:
+            # 如果不重复，接着遍历
+            if cur.val != cur.next.val:
+                pre = pre.next
                 cur = cur.next
-        return head
-
+            else:
+                # 重复了 ，就删除前面的那个重复的节点，cur = 下一个节点
+                pre.next = cur.next
+                cur = cur.next
+        return dummy.next
