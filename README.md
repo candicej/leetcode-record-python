@@ -138,7 +138,7 @@ https://leetcode-cn.com/problems/palindrome-linked-list/
 
 https://leetcode-cn.com/problems/longest-palindromic-substring/
 
-考察如何填dp表，状态转移方程
+考察如何填dp表，状态转移方程，二维表，有难度
 
 53.最大子序和(easy)
 
@@ -193,6 +193,12 @@ https://leetcode-cn.com/problems/word-break/
 https://leetcode-cn.com/problems/house-robber/
 
 考察特例判断和状态转移方程，思想就是动态规划的基本思想：大问题转化为小问题
+
+300. 最长递增子序列 （medium）
+
+https://leetcode-cn.com/problems/longest-increasing-subsequence/
+
+考察第i个状态和前面状态的关系，状态转移方程不好想，值得二刷
 
 1143. 最长公共子序列（medium） ***
 
