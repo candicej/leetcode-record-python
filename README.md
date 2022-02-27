@@ -61,6 +61,12 @@ https://leetcode-cn.com/problems/contains-duplicate/
 
 # 字符串相关
 
+9. 回文数（easy）
+
+https://leetcode-cn.com/problems/palindrome-number/
+
+考察翻转后半部分，停止条件是 原数字小于等于翻转后的数字，最后判断x == reverse or x == reverse // 10 （奇数和偶数不同）
+
 58.最后一个单词的长度（easy)
 
 https://leetcode-cn.com/problems/length-of-last-word/
@@ -71,7 +77,13 @@ https://leetcode-cn.com/problems/length-of-last-word/
 
 https://leetcode-cn.com/problems/longest-common-prefix/
 
-考察字符串是否相等,遍历一个列表，依次进行比较
+考察字符串是否相等,遍历一个列表，依次进行比较，有难度。值得二刷
+
+415. 字符串相加(easy)
+
+https://leetcode-cn.com/problems/add-strings/
+
+考察模拟加法，难点是两个数不相等的时候需要补0，那么需要用while循环判断i or j >=0 因为，数组会越界，不能作为判断条件
 
 
 # 链表相关
@@ -289,7 +301,25 @@ https://leetcode-cn.com/problems/sliding-window-maximum/
 
 考察双向队列，队首元素存储最大元素，很难理解
 
+# 二分查找
 
+35.搜索插入位置（easy)
+
+https://leetcode-cn.com/problems/search-insert-position/
+
+考察数组的遍历以及二分法查找
+
+69. x 的平方根(easy)
+
+https://leetcode-cn.com/problems/sqrtx/
+
+考察二分查找
+
+704. 二分查找(easy)
+
+https://leetcode-cn.com/problems/binary-search/
+
+最基础的二分查找，关键是循环停止条件 l<=r
 
 
 
