@@ -322,14 +322,12 @@ https://leetcode-cn.com/problems/binary-search/
 最基础的二分查找，关键是循环停止条件 l<=r
 
 
-
-
 to do list:
 27 4 92.63.123.118 102. 107
  
 top 100 to do:
 88 
- 
+
 
 
 
