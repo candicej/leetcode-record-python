@@ -60,7 +60,6 @@ https://leetcode-cn.com/problems/contains-duplicate/
 
 
 # 字符串相关
-
 9. 回文数（easy）
 
 https://leetcode-cn.com/problems/palindrome-number/
@@ -87,7 +86,6 @@ https://leetcode-cn.com/problems/add-strings/
 
 
 # 链表相关
-
 2. 两数相加 （medium）
 
 https://leetcode-cn.com/problems/add-two-numbers/
@@ -271,9 +269,13 @@ https://leetcode-cn.com/problems/implement-queue-using-stacks/
 
 https://leetcode-cn.com/problems/binary-tree-preorder-traversal/
 
+考察树的遍历，迭代和递归
+
 94. 二叉树的中序遍历  (easy) ***
 
 https://leetcode-cn.com/problems/binary-tree-inorder-traversal/
+
+考察树的遍历，迭代和递归
 
 145. 二叉树的后序遍历 (easy) ****
 
@@ -292,6 +294,8 @@ https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/
 https://leetcode-cn.com/problems/path-sum/
 
 考察递归, 不用sum直接递归下一个子问题
+
+
 
 # 滑动窗口
 
